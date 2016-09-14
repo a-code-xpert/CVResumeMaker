@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Activities.MainActivity">
+
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="@dimen/main_logo"
+        android:layout_height="@dimen/main_logo"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/main_create"
+        android:layout_width="@dimen/main_button_width"
+        android:layout_height="@dimen/main_button_height"
+        android:layout_below="@id/logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/main_button"
+        android:gravity="center"
+        android:text="@string/create"
+        android:textAllCaps="true"
+        android:textColor="#F7F7F7"
+        android:textSize="10pt"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/main_list"
+        android:layout_width="@dimen/main_button_width"
+        android:layout_height="@dimen/main_button_height"
+        android:layout_below="@id/main_create"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/main_button"
+        android:gravity="center"
+        android:text="@string/list_resume"
+        android:textAllCaps="true"
+        android:textColor="#F7F7F7"
+        android:textSize="10pt"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/main_more"
+        android:layout_width="@dimen/main_button_width"
+        android:layout_height="@dimen/main_button_height"
+        android:layout_below="@id/main_list"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/main_button"
+        android:gravity="center"
+        android:text="@string/more"
+        android:textAllCaps="true"
+        android:textColor="#F7F7F7"
+        android:textSize="10pt"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/main_about"
+        android:layout_width="@dimen/main_button_width"
+        android:layout_height="@dimen/main_button_height"
+        android:layout_below="@id/main_more"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/main_button"
+        android:gravity="center"
+        android:text="@string/about"
+        android:textAllCaps="true"
+        android:textColor="#F7F7F7"
+        android:textSize="10pt"
+        android:textStyle="bold" />
+</RelativeLayout>
